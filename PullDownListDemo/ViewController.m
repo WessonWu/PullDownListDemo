@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-
 static const CGFloat kPullDownListIndent = 8;
 static const CGFloat kPullDownListWidthRatio = 0.9;
 @interface ViewController ()
@@ -15,7 +14,6 @@ static const CGFloat kPullDownListWidthRatio = 0.9;
 
 @end
 
-@implementation ViewController
 @implementation ViewController {
     UITableView* _tableView;
     CGRect _emailFrame;
